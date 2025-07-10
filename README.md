@@ -23,7 +23,7 @@ net stop MySQL80
 2. Paste the following SQL command:
 
    ```sql
-   ALTER USER 'root'@'localhost' IDENTIFIED BY '12345';
+   ALTER USER 'root'@'localhost' IDENTIFIED BY 'sample password';
    ```
 3. Save it as: `C:\mysql-reset.sql`
 
